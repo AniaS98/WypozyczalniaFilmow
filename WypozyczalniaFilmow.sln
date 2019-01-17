@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WypozyczalniaFilmow", "Wypo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIWypozyczalniaFilmow", "GUIWypozyczalniaFilmow\GUIWypozyczalniaFilmow.csproj", "{939AC45D-7A7E-4806-964A-487AA79523FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WypozyczalniaFilmowTests", "WypozyczalniaFilmowTests\WypozyczalniaFilmowTests.csproj", "{CE510403-5B56-4EC9-A019-130B973E4124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{939AC45D-7A7E-4806-964A-487AA79523FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939AC45D-7A7E-4806-964A-487AA79523FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939AC45D-7A7E-4806-964A-487AA79523FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE510403-5B56-4EC9-A019-130B973E4124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE510403-5B56-4EC9-A019-130B973E4124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE510403-5B56-4EC9-A019-130B973E4124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE510403-5B56-4EC9-A019-130B973E4124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

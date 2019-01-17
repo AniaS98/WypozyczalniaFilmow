@@ -19,3 +19,9 @@ C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypoz
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.csproj.CopyComplete
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.exe
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.pdb
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\KontoUzytkownika.g.cs
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Wypozycz.g.cs
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\KontoUzytkownika.baml
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Wypozycz.baml
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.dll
+C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.xml

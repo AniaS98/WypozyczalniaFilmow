@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListaFilmowDostepnych xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nazwa>Lista Filmow</Nazwa>
+  <ListaFilmow>
+    <Film>
+      <Nazwa>Ojciec chrzestny</Nazwa>
+      <Opis>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</Opis>
+      <Rezyser>Francis Ford Coppola</Rezyser>
+      <RokWydania>1972</RokWydania>
+      <Gatunek>Dramat</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Forrest Gump</Nazwa>
+      <Opis>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</Opis>
+      <Rezyser>Robert Zemeckis</Rezyser>
+      <RokWydania>1994</RokWydania>
+      <Gatunek>Dramat</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Lista Schindlera</Nazwa>
+      <Opis>Historia przedsiębiorcy Oskara Schindlera, który podczas II wojny światowej uratował przed pobytem w obozach koncentracyjnych 1100 Żydów.</Opis>
+      <Rezyser>Steven Spielberg</Rezyser>
+      <RokWydania>1993</RokWydania>
+      <Gatunek>Wojenny</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Pulp Fiction</Nazwa>
+      <Opis>Przemoc i odkupienie w opowieści o dwóch płatnych mordercach pracujących na zlecenie mafii, żonie gangstera, bokserze i parze okradającej ludzi w restauracji.</Opis>
+      <Rezyser>Quentin Tarantino</Rezyser>
+      <RokWydania>1994</RokWydania>
+      <Gatunek>Gangsterski</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Życie jest piękne</Nazwa>
+      <Opis>Zamknięty w obozie koncentracyjnym wraz z synem Guido próbuje przekonać chłopca, że okrutna rzeczywistość jest jedynie formą zabawy dla dorosłych.</Opis>
+      <Rezyser>Roberto Beningi</Rezyser>
+      <RokWydania>1997</RokWydania>
+      <Gatunek>Dramat</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Siedem</Nazwa>
+      <Opis>Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary wg specjalnego "klucza".</Opis>
+      <Rezyser>Dawid Fincher</Rezyser>
+      <RokWydania>1995</RokWydania>
+      <Gatunek>Thriller</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Podziemy krąg</Nazwa>
+      <Opis>Dwóch mężczyzn znudzonych rutyną zakłada klub, w którym co tydzień odbywają się walki na gołe pięści.</Opis>
+      <Rezyser>David Fincher</Rezyser>
+      <RokWydania>1999</RokWydania>
+      <Gatunek>Thriller</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Chłopcy z ferajny</Nazwa>
+      <Opis>Kilkunastoletni Henry i Tommy DeVito trafiają pod opiekę potężnego gangstera. Obaj szybko uczą się panujących w mafii reguł.</Opis>
+      <Rezyser>Martin Scorsese</Rezyser>
+      <RokWydania>1990</RokWydania>
+      <Gatunek>Gangsterski</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Pianista</Nazwa>
+      <Opis>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie. </Opis>
+      <Rezyser>Roman Polański</Rezyser>
+      <RokWydania>2002</RokWydania>
+      <Gatunek>Biograficzny</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Incepcja</Nazwa>
+      <Opis>Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.</Opis>
+      <Rezyser>Christopher Nolan</Rezyser>
+      <RokWydania>2010</RokWydania>
+      <Gatunek>Thriller</Gatunek>
+      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
+      <DataOddania>0001-01-01T00:00:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Zielona mila</Nazwa>
+      <Opis>Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek.</Opis>
+      <Rezyser>Frank Darabont</Rezyser>
+      <RokWydania>1999</RokWydania>
+      <Gatunek>Dramat</Gatunek>
+      <DataWypozyczenia>2019-01-15T12:59:41.9703956+01:00</DataWypozyczenia>
+      <DataOddania>2019-02-15T12:59:41.9703956+01:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Nietykalni</Nazwa>
+      <Opis>Sparaliżowany milioner zatrudnia do opieki młodego chłopaka z przedmieścia, który właśnie wyszedł z więzienia.</Opis>
+      <Rezyser>Olivier Nakache, Eric Toledano</Rezyser>
+      <RokWydania>2011</RokWydania>
+      <Gatunek>Biograficzny</Gatunek>
+      <DataWypozyczenia>2019-01-15T13:14:37.47603+01:00</DataWypozyczenia>
+      <DataOddania>2019-02-15T13:14:37.47603+01:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Lot nad kukułczym gniazdem </Nazwa>
+      <Opis>Historia złodzieja, szulera i chuligana, który, by uniknąć więzienia, udaje niepoczytalność. Trafia do szpitala dla umysłowo chorych, gdzie twardą ręką rządzi siostra Ratched.</Opis>
+      <Rezyser>Milos Forman</Rezyser>
+      <RokWydania>1975</RokWydania>
+      <Gatunek>Psychologiczny</Gatunek>
+      <DataWypozyczenia>2019-01-16T21:50:38.8092929+01:00</DataWypozyczenia>
+      <DataOddania>2019-02-16T21:50:38.8092929+01:00</DataOddania>
+    </Film>
+  </ListaFilmow>
+</ListaFilmowDostepnych>

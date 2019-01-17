@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemKont xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ListaKont>
+    <Klient>
+      <Imie>Ola</Imie>
+      <Nazwisko>Bas</Nazwisko>
+      <NrTelefonu>265148759</NrTelefonu>
+      <Mail>klaudia.djiw@dao.pl</Mail>
+      <Login>lala</Login>
+      <Haslo>bec</Haslo>
+      <ListaWypozyczonychFilmow>
+        <Film>
+          <Nazwa>Skazani na Shawshank</Nazwa>
+          <Opis>Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.</Opis>
+          <Rezyser>Frank Darabont</Rezyser>
+          <RokWydania>1994</RokWydania>
+          <Gatunek>Dramat</Gatunek>
+          <DataWypozyczenia>2019-01-15T10:21:57.6850175+01:00</DataWypozyczenia>
+          <DataOddania>2019-02-15T10:21:57.6850175+01:00</DataOddania>
+        </Film>
+      </ListaWypozyczonychFilmow>
+    </Klient>
+    <Klient>
+      <Imie>Ala</Imie>
+      <Nazwisko>Las</Nazwisko>
+      <NrTelefonu>265178759</NrTelefonu>
+      <Mail>klsjsudia.djiw@dao.pl</Mail>
+      <Login>lala</Login>
+      <Haslo>bec</Haslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+    <Klient>
+      <Imie>Kasia</Imie>
+      <Nazwisko>Otko</Nazwisko>
+      <NrTelefonu>696524275</NrTelefonu>
+      <Mail>katin010@gmail.com</Mail>
+      <Login>TheKatin</Login>
+      <Haslo>kasia1</Haslo>
+      <PotworzHaslo>kasia1</PotworzHaslo>
+      <ListaWypozyczonychFilmow>
+        <Film>
+          <Nazwa>Dwunastu gniewnych ludzi</Nazwa>
+          <Opis>Dwunastu przysięgłych ma wydać wyrok w procesie o morderstwo. Jeden z nich ma wątpliwości dotyczące winy oskarżonego.</Opis>
+          <Rezyser>Sidney Lumet</Rezyser>
+          <RokWydania>1957</RokWydania>
+          <Gatunek>Dramat</Gatunek>
+          <DataWypozyczenia>2019-01-16T17:33:45.5779326+01:00</DataWypozyczenia>
+          <DataOddania>2019-06-16T17:33:45.5779326+02:00</DataOddania>
+        </Film>
+      </ListaWypozyczonychFilmow>
+    </Klient>
+    <Klient>
+      <Imie>Ola</Imie>
+      <Nazwisko>Otko</Nazwisko>
+      <NrTelefonu>695874125</NrTelefonu>
+      <Mail>olao123@wp.pl</Mail>
+      <Login>Olaoo</Login>
+      <Haslo>ola</Haslo>
+      <PotworzHaslo>ola</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+    <Klient>
+      <Imie>Ola</Imie>
+      <Nazwisko>Otko</Nazwisko>
+      <NrTelefonu>695874125</NrTelefonu>
+      <Mail>olao123@wp.pl</Mail>
+      <Login>Olciax</Login>
+      <Haslo>ola</Haslo>
+      <PotworzHaslo>ola</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+  </ListaKont>
+</SystemKont>

@@ -6,7 +6,48 @@ using System.Threading.Tasks;
 
 namespace WypozyczalniaFilmow
 {
-    public enum Gatunki { Dramat, Komedia, Horror, Obyczajowy, Biograficzny, Psychologiczny, Wojenny, Gangsterski, Thriller };
+    /// <summary>
+    /// Wyliczeniaowy tym gatunków filmów
+    /// </summary>
+    public enum Gatunki
+    {
+        /// <summary>
+        /// Gatunek dramat
+        /// </summary>
+        Dramat,
+        /// <summary>
+        /// Gatunek komedia
+        /// </summary>
+        Komedia,
+        /// <summary>
+        /// Gatunek horror
+        /// </summary>
+        Horror,
+        /// <summary>
+        /// Gatunek obyczjowy
+        /// </summary>
+        Obyczajowy,
+        /// <summary>
+        /// Gatunek biograficzny
+        /// </summary>
+        Biograficzny,
+        /// <summary>
+        /// Gatunek psychologiczy
+        /// </summary>
+        Psychologiczny,
+        /// <summary>
+        /// Gatunek wojenny
+        /// </summary>
+        Wojenny,
+        /// <summary>
+        /// Gatunek gangsterski
+        /// </summary>
+        Gangsterski,
+        /// <summary>
+        /// Gatunek thriller
+        /// </summary>
+        Thriller
+    };
     class Program
     {
         static void Main(string[] args)
@@ -27,25 +68,50 @@ namespace WypozyczalniaFilmow
             Film f14 = new Film("Pianista", "Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie. ", "Roman Polański", "2002", Gatunki.Biograficzny);
             Film f15 = new Film("Incepcja", "Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.", "Christopher Nolan", "2010", Gatunki.Thriller);
 
-            ListaFilmowPoGatunkach dramat = new ListaFilmowPoGatunkach("Dramat");
-            dramat.Dodaj(f1);
-            dramat.Dodaj(f3);
-            dramat.Dodaj(f4);
-
-            ListaFilmowPoGatunkach biograficzny = new ListaFilmowPoGatunkach("Biograficzny");
-            biograficzny.Dodaj(f2);
+            ListaFilmowDostepnych l1 = new ListaFilmowDostepnych("Lista Filmow");
+            l1.Dodaj(f1);
+            l1.Dodaj(f2);
+            l1.Dodaj(f3);
+            l1.Dodaj(f4);
+            l1.Dodaj(f5);
+            l1.Dodaj(f6);
+            l1.Dodaj(f7);
+            l1.Dodaj(f8);
+            l1.Dodaj(f9);
+            l1.Dodaj(f10);
+            l1.Dodaj(f11);
+            l1.Dodaj(f12);
+            l1.Dodaj(f13);
+            l1.Dodaj(f14);
+            l1.Dodaj(f15);
 
             Klient k1 = new Klient("Ola", "Bas", "265148759", "klaudia.djiw@dao.pl", "lala", "bec");
             Klient k2 = new Klient("Ala", "Las", "265178759", "klsjsudia.djiw@dao.pl", "lala", "bec");
+            l1.Wypozyczenie(k1, f1);
+            l1.Wypozyczenie(k2, f2);
 
             SystemKont ko1 = new SystemKont();
             ko1.Dodaj(k1);
             ko1.Dodaj(k2);
 
-            dramat.Wypozyczenie(k1, f1);
-            dramat.Wypozyczenie(k1, f3);
-            Console.WriteLine(k1);
+            /*SystemKont.ZapiszXML("SystemKont.xml", ko1);
+            SystemKont sk1 = new SystemKont();
+            sk1 = (SystemKont)SystemKont.OdczytajXML("SystemKont.xml");
+            Console.WriteLine(sk1);
+
+            ListaFilmowDostepnych.ZapiszXML("ListaFilmowDostepnych.xml", l1);*/
+
+            /*List<Film> nowaLista = new List<Film>();
+            nowaLista = l1.SzukanieGatunkow(l1.ListaFilmow, Gatunki.Dramat);
+            foreach (Film f in nowaLista)
+            {
+                Console.WriteLine(f);
+            }
+            Console.WriteLine("Wyswietlone");*/
+            //l1.Przedluz(f1);
+            //Console.WriteLine(f1);
             Console.ReadKey();
+
         }
     }
 }
