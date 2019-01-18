@@ -63,7 +63,7 @@ namespace GUIWypozyczalniaFilmow
                 MessageBox.Show("Źle powtórzyłeś hasło.");
                 return;
             }
-            
+            k.ListaWypozyczonychFilmow = new List<Film>();
             systemk.Dodaj(k);
             SystemKont.ZapiszXML("SystemKont.xml", systemk);
             this.Close();

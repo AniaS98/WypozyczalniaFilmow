@@ -3,15 +3,6 @@
   <Nazwa>Lista Filmow</Nazwa>
   <ListaFilmow>
     <Film>
-      <Nazwa>Ojciec chrzestny</Nazwa>
-      <Opis>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</Opis>
-      <Rezyser>Francis Ford Coppola</Rezyser>
-      <RokWydania>1972</RokWydania>
-      <Gatunek>Dramat</Gatunek>
-      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
-      <DataOddania>0001-01-01T00:00:00</DataOddania>
-    </Film>
-    <Film>
       <Nazwa>Forrest Gump</Nazwa>
       <Opis>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</Opis>
       <Rezyser>Robert Zemeckis</Rezyser>
@@ -75,15 +66,6 @@
       <DataOddania>0001-01-01T00:00:00</DataOddania>
     </Film>
     <Film>
-      <Nazwa>Pianista</Nazwa>
-      <Opis>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie. </Opis>
-      <Rezyser>Roman Polański</Rezyser>
-      <RokWydania>2002</RokWydania>
-      <Gatunek>Biograficzny</Gatunek>
-      <DataWypozyczenia>0001-01-01T00:00:00</DataWypozyczenia>
-      <DataOddania>0001-01-01T00:00:00</DataOddania>
-    </Film>
-    <Film>
       <Nazwa>Incepcja</Nazwa>
       <Opis>Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.</Opis>
       <Rezyser>Christopher Nolan</Rezyser>
@@ -118,6 +100,24 @@
       <Gatunek>Psychologiczny</Gatunek>
       <DataWypozyczenia>2019-01-16T21:50:38.8092929+01:00</DataWypozyczenia>
       <DataOddania>2019-02-16T21:50:38.8092929+01:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Pianista</Nazwa>
+      <Opis>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie. </Opis>
+      <Rezyser>Roman Polański</Rezyser>
+      <RokWydania>2002</RokWydania>
+      <Gatunek>Biograficzny</Gatunek>
+      <DataWypozyczenia>2019-01-17T19:58:16.4417883+01:00</DataWypozyczenia>
+      <DataOddania>2019-05-17T19:58:16.4417883+02:00</DataOddania>
+    </Film>
+    <Film>
+      <Nazwa>Ojciec chrzestny</Nazwa>
+      <Opis>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</Opis>
+      <Rezyser>Francis Ford Coppola</Rezyser>
+      <RokWydania>1972</RokWydania>
+      <Gatunek>Dramat</Gatunek>
+      <DataWypozyczenia>2019-01-18T16:46:39.3929064+01:00</DataWypozyczenia>
+      <DataOddania>2019-05-18T16:46:39.3929064+02:00</DataOddania>
     </Film>
   </ListaFilmow>
 </ListaFilmowDostepnych>

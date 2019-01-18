@@ -25,3 +25,31 @@ C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypoz
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Wypozycz.baml
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.dll
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.xml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\GUIWypozyczalniaFilmow.exe.config
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\GUIWypozyczalniaFilmow.exe
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\GUIWypozyczalniaFilmow.pdb
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.exe
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.dll
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.pdb
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.xml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.exe.config
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\bin\Debug\EntityFramework.xml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.csprojAssemblyReference.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\KontoUzytkownika.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\MainWindow.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Wypozycz.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Zarejestruj.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\App.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow_MarkupCompile.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow_MarkupCompile.lref
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\KontoUzytkownika.baml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\MainWindow.baml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Wypozycz.baml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\Zarejestruj.baml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.g.resources
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.Properties.Resources.resources
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.csproj.GenerateResource.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.csproj.CoreCompileInputs.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.csproj.CopyComplete
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.exe
+C:\Users\katin\Desktop\WypozyczalniaFilmow\GUIWypozyczalniaFilmow\obj\Debug\GUIWypozyczalniaFilmow.pdb

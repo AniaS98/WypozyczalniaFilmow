@@ -69,5 +69,45 @@
       <PotworzHaslo>ola</PotworzHaslo>
       <ListaWypozyczonychFilmow />
     </Klient>
+    <Klient>
+      <Imie>Jan</Imie>
+      <Nazwisko>Kowalski</Nazwisko>
+      <NrTelefonu>696524275</NrTelefonu>
+      <Mail>otko@gmail.com</Mail>
+      <Login>zibi</Login>
+      <Haslo>zibi5</Haslo>
+      <PotworzHaslo>zibi5</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+    <Klient>
+      <Imie>Jola</Imie>
+      <Nazwisko>Tuno</Nazwisko>
+      <NrTelefonu>998658214</NrTelefonu>
+      <Mail>dupa@gm.pl</Mail>
+      <Login>goim55</Login>
+      <Haslo>otko5556</Haslo>
+      <PotworzHaslo>otko5556</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+    <Klient>
+      <Imie>Ania</Imie>
+      <Nazwisko>Mowak</Nazwisko>
+      <NrTelefonu>425789654</NrTelefonu>
+      <Mail>klaud</Mail>
+      <Login>anna</Login>
+      <Haslo>anna</Haslo>
+      <PotworzHaslo>anna</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
+    <Klient>
+      <Imie>ala</Imie>
+      <Nazwisko>ala</Nazwisko>
+      <NrTelefonu>585963214</NrTelefonu>
+      <Mail>ala</Mail>
+      <Login>ala</Login>
+      <Haslo>ala</Haslo>
+      <PotworzHaslo>ala</PotworzHaslo>
+      <ListaWypozyczonychFilmow />
+    </Klient>
   </ListaKont>
 </SystemKont>

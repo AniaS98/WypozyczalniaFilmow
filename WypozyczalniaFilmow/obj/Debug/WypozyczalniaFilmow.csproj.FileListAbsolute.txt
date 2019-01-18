@@ -15,3 +15,20 @@ C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\Wypozycz
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.xml
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\katin\Desktop\Folder\STUDIA\III semestr\PO\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.csproj.CopyComplete
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.exe.config
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.exe
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\WypozyczalniaFilmow.pdb
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.dll
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.xml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.csprojAssemblyReference.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\Wypozycz.g.cs
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow_MarkupCompile.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow_MarkupCompile.lref
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\Wypozycz.baml
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.g.resources
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.csproj.CoreCompileInputs.cache
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.csproj.CopyComplete
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.exe
+C:\Users\katin\Desktop\WypozyczalniaFilmow\WypozyczalniaFilmow\obj\Debug\WypozyczalniaFilmow.pdb

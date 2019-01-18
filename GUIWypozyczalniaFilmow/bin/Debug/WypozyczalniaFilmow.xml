@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WypozyczalniaFilmow</name>
+    </assembly>
+    <members>
+        <member name="T:WypozyczalniaFilmow.Film">
+            <summary>
+            Klasa Film
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.Nazwa">
+            <summary>
+            Nazwa filmu
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.Opis">
+            <summary>
+            Opis filmu
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.Rezyser">
+            <summary>
+            Reżyser filmu 
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.RokWydania">
+            <summary>
+            Rok wydania filmu
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.Gatunek">
+            <summary>
+            Gatunek filmu
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.DataWypozyczenia">
+            <summary>
+            Data wypożyczenia filmu
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Film.DataOddania">
+            <summary>
+            Data oddania filmu
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Film.#ctor">
+            <summary>
+            Konstruktor nieparametryczny klasy Film przypisujący systemowaą minimalną datę do zmiennych dataWypożyczenia, dataOddania
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Film.#ctor(System.String,System.String,System.String,System.String,WypozyczalniaFilmow.Gatunki)">
+            <summary>
+            Konstruktor parametryczny klasy Film przypisujący wartości zmiennym
+            </summary>
+            <param name="n">Nazwa</param>
+            <param name="o">Opis</param>
+            <param name="r">Reżyser</param>
+            <param name="rw">Rok wydania</param>
+            <param name="g">Gatunek</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Film.ToString">
+            <summary>
+            Wypisywanie informacji o filmie
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Film.CompareTo(System.Object)">
+            <summary>
+            Interfejs IComparable porównujący nazwy filmów
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WypozyczalniaFilmow.Klient">
+            <summary>
+            Klasa Klient, która dziedziczy po klasie Osoba
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Klient.Login">
+            <summary>
+            Login klienta
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Klient.Haslo">
+            <summary>
+            Hasło klienta
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Klient.PotworzHaslo">
+            <summary>
+            Zmienna pomocnicza do sprawdzenia poprawnosci wpisanego hasła
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Klient.ListaWypozyczonychFilmow">
+            <summary>
+            Lista wypożyczonych filmów przez klienta
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Klient.#ctor">
+            <summary>
+            Konstruktor nieparametryczny klasy Klient
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Klient.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny klasy Klient przypisujący wartości zmiennym oraz pobierający zmmienne z klasy Osoba
+            </summary>
+            <param name="i">Imię</param>
+            <param name="n">Nazwisko</param>
+            <param name="nrT">Numer telefonu</param>
+            <param name="m">E-mail</param>
+            <param name="l">Login</param>
+            <param name="h">Hasło</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Klient.Sortuj">
+            <summary>
+            Sortowanie listy wypożyczoncyh filmów przez klienta według nazwy filmu
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Klient.ToString">
+            <summary>
+            Wypisywanie danych klienta oraz jego listy wypoozyczoncyh filmów
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WypozyczalniaFilmow.SystemKont">
+            <summary>
+            Klasa SystemKont
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.SystemKont.ListaKont">
+            <summary>
+            Lista kont w systemie kont
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.#ctor">
+            <summary>
+            Konstryktor klasy SystemKont inicjujący pustą listę kont
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.Dodaj(WypozyczalniaFilmow.Klient)">
+            <summary>
+            Doodanie klienta do listy kont
+            </summary>
+            <param name="k">Klient</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.CzyIstnieje(System.String)">
+            <summary>
+            Sprawdzanie czy login już istnieje w sysytemie
+            </summary>
+            <param name="nrL">Numer login</param>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.Usun(WypozyczalniaFilmow.Klient)">
+            <summary>
+            Usunięcie klienta z listy kont
+            </summary>
+            <param name="k">Klient</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.SprLoginHaslo(System.String,System.String)">
+            <summary>
+            Sprawdzenie czy podany login i hasło jest na liście kont, jesli istanieje to zwracany jest klient
+            </summary>
+            <param name="l">Login</param>
+            <param name="h">Hasło</param>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.WprowadzZmiany(WypozyczalniaFilmow.Klient,System.Collections.Generic.List{WypozyczalniaFilmow.Film})">
+            <summary>
+            Wprowadznie zmian na liscie wypożyczonych filmów klienta
+            </summary>
+            <param name="k">Klient</param>
+            <param name="l">Lista wypożyczonych filmów po modyfikacji</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.ToString">
+            <summary>
+            Wypisywanie listy klientów nalezących do systemu kont
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.ZapiszXML(System.String,WypozyczalniaFilmow.SystemKont)">
+            <summary>
+            Zapis do pliku XML klasy SystemKont
+            </summary>
+            <param name="nazwaPliku">Nazwa pliku</param>
+            <param name="s"></param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.SystemKont.OdczytajXML(System.String)">
+            <summary>
+            Odczyt pliku XML zawierającego dane na temat klasy SystemKont
+            </summary>
+            <param name="nazwaPliku">Nazwa pliku</param>
+            <returns></returns>
+        </member>
+        <member name="T:WypozyczalniaFilmow.ListaFilmowDostepnych">
+            <summary>
+            Klasa ListaFilmowDostepnych
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.ListaFilmowDostepnych.Nazwa">
+            <summary>
+            Nazwa grupy filmów
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.ListaFilmowDostepnych.ListaFilmow">
+            <summary>
+            Lista filmów dostępnych do wypożyczenia
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.#ctor">
+            <summary>
+            Konstruktor klasy ListaFilmowDostepnych inicjujący pustą listę filmów dostępnych do wypożyczenia
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.#ctor(System.String)">
+            <summary>
+            Konstruktor paramateryczny klasy ListaFilmowDostepnych przypisujący nazwę grupy filmów
+            </summary>
+            <param name="n">Nazwa grupy Filmów</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.Dodaj(WypozyczalniaFilmow.Film)">
+            <summary>
+            Dodanie filmu do listy filmów dostępnych do wypożyczenia
+            </summary>
+            <param name="f">Film</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.Wypozyczenie(WypozyczalniaFilmow.Klient,WypozyczalniaFilmow.Film)">
+            <summary>
+            Wypożyczenie filmu przez klienta. Film zostaje usunięty z listy filmów dotępnych do wypożyczenia i zostaje dodany do listy filmów wypożyczonych przez klienta.
+            </summary>
+            <param name="k">Klient</param>
+            <param name="f">Film</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.Oddaj(WypozyczalniaFilmow.Klient,WypozyczalniaFilmow.Film)">
+            <summary>
+            Oddanie filmu wypożyczonego wcześniej przez klienta. Film zostaje dodany do listy filmów dostępnych do wypożyczenia i usuniety z listy filmów wypozyczonych przez klienta.
+            </summary>
+            <param name="k">Klient</param>
+            <param name="f">Film</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.Przedluz(WypozyczalniaFilmow.Film)">
+            <summary>
+            Przedłużenie terminu oddania filmu wypożyczonego przez klienta
+            </summary>
+            <param name="f">Film</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.SzukanieGatunkow(System.Collections.Generic.List{WypozyczalniaFilmow.Film},WypozyczalniaFilmow.Gatunki)">
+            <summary>
+            Szukanie filmów podanycm gatunku. Zwaracana jest nowa lista z filmami wyłącznie o danym gatunku.
+            </summary>
+            <param name="lf">Lista filmów przeszukiwana</param>
+            <param name="g">Gatunek filmu</param>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.ZapiszXML(System.String,WypozyczalniaFilmow.ListaFilmowDostepnych)">
+            <summary>
+            Zapis do pliku XML klasy ListaFilmowDostepnych
+            </summary>
+            <param name="nazwaPliku"></param>
+            <param name="l"></param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.OdczytajXML(System.String)">
+            <summary>
+            Odczyt pliku XML zawierającego dane na temat klasy ListaFilmowDostepnych
+            </summary>
+            <param name="nazwaPliku"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WypozyczalniaFilmow.ListaFilmowDostepnych.ToString">
+            <summary>
+            Wypisywanie listy filmów możliwych do wypożyczenia
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WypozyczalniaFilmow.Osoba">
+            <summary>
+            Klasa Osoba
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Osoba.Imie">
+            <summary>
+            Imię osoby
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Osoba.Nazwisko">
+            <summary>
+            Nazwisko osoby
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Osoba.NrTelefonu">
+            <summary>
+            Nuemr telefonu osoby
+            </summary>
+        </member>
+        <member name="P:WypozyczalniaFilmow.Osoba.Mail">
+            <summary>
+            E-mail osoby
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Osoba.#ctor">
+            <summary>
+            Konstruktor nieparametryczny klasy Osoba przypisujący puste wartości
+            </summary>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Osoba.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Konstruktor parametrycznyy klasy Osoba przypisujący konkretne wartości
+            </summary>
+            <param name="i">Imie</param>
+            <param name="n">Nazwisko</param>
+            <param name="nrT">Nuemr telefonu</param>
+            <param name="m">E-mail</param>
+        </member>
+        <member name="M:WypozyczalniaFilmow.Osoba.ToString">
+            <summary>
+            Wypisywanie danych osoby
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WypozyczalniaFilmow.Gatunki">
+            <summary>
+            Wyliczeniaowy tym gatunków filmów
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Dramat">
+            <summary>
+            Gatunek dramat
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Komedia">
+            <summary>
+            Gatunek komedia
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Horror">
+            <summary>
+            Gatunek horror
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Obyczajowy">
+            <summary>
+            Gatunek obyczjowy
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Biograficzny">
+            <summary>
+            Gatunek biograficzny
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Psychologiczny">
+            <summary>
+            Gatunek psychologiczy
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Wojenny">
+            <summary>
+            Gatunek wojenny
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Gangsterski">
+            <summary>
+            Gatunek gangsterski
+            </summary>
+        </member>
+        <member name="F:WypozyczalniaFilmow.Gatunki.Thriller">
+            <summary>
+            Gatunek thriller
+            </summary>
+        </member>
+    </members>
+</doc>
